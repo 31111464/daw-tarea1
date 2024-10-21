@@ -30,7 +30,7 @@ export default function Tarea1() {
                     <h5>Ejercicio en Clase 1 | fecha: 20/10/2024</h5>
                 </div>
                 <div className="border pt-3 px-3 col-sm-9 col-md-9 col-lg-9">
-                    <div className="row h4 pb-1 mb-5 border-bottom border-danger font-size-12 font-family-app">Listado de Usuarios</div>
+                    <div className="row h4 pb-1 ms-1 mb-4 border-bottom border-danger font-size-12 font-family-app">Aplicar de useState y useEffect</div>
                     <div className="row g-3 align-items-center">
                         <div className="row col-lg-12 col-md-12 col-sm-12">
                         <div className="input-group input-group-sm mb-3">
