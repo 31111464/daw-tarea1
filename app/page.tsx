@@ -1,5 +1,17 @@
-import Image from "next/image";
+'use client';
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation'
 
-export default function Home() {
-  return ('');
-}
+const Home: React.FC = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+      router.push('/Tarea1');
+  }, [router]);
+
+    return (
+      ''
+    );
+};
+
+export default Home;

@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
 import Image from 'next/image'
 import "./globals.css";
 import "./src/bootstrap/bootstrap.min.css";
@@ -9,11 +7,8 @@ import "./src/img/favicon.ico";
 import Link from 'next/link';
 import logo from './logo.png';
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children, }: Readonly<{children: React.ReactNode;}>) {
+
   return (
     <html>
       <head>
@@ -34,7 +29,7 @@ export default function RootLayout({
                   <Image src={logo} width={40} height={40} alt="Unitec" className="ml-2" />
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="/Tarea1">Home</Link>
+                  <Link className="nav-link" href="/Tarea1" id="home">Home</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link active" aria-current="page" href="/Tarea1">Tarea 1</Link>

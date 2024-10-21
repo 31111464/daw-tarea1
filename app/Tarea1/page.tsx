@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 
 export default function Tarea1() {
     const [value, setValue] = useState("");
-    const [clase, setClase] = useState("");
+    const [clase, setClase] = useState("border background-color-white");
     const [caracteres, setCaracteres] = useState(0);
 
     useEffect(() => {
